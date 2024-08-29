@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #fff; /* Set the background color to white */
+    padding-top: 20px; /* Adds space between the top of the webpage and header */
+    background-color: #fff;
     color: #333;
 }
 
@@ -11,6 +11,7 @@ header {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
     text-align: center;
+    margin-bottom: 0; /* Removes any gap between header and content */
 }
 
 header nav a {
@@ -28,7 +29,7 @@ header nav a:hover {
 .container {
     display: flex;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 0 auto; /* Remove top margin to eliminate gap between header and content */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -79,6 +80,7 @@ header nav a:hover {
 .content {
     width: 75%;
     padding: 40px;
+    margin: 0; /* Remove margin to eliminate gap between header and content */
 }
 
 .content section {
