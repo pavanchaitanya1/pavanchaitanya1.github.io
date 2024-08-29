@@ -9,38 +9,72 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">About</a>
-            <a href="cv.html">My CV</a>
+            <a href="index.html">Pavan</a>
+            <a href="cv.html">Resume</a>
         </nav>
     </header>
 
     <div class="container">
         <aside class="sidebar">
-            <img src="your-photo.jpeg" alt="[Your Name]" class="profile-pic">
-            <h2>[Your Name]</h2>
-            <p>[Your Title]</p>
-            <p>[Your Location]</p>
+            <img src="your-photo.jpeg" alt="Pavan Chaitanya Penagamuri" class="profile-pic">
+            <h2>Pavan Chaitanya Penagmuri</h2>
+            <h4>Graduate Student at Computer Science Department in Purdue University</h4>
             <ul class="contact-info">
-                <li><a href="mailto:your-email@example.com">Email</a></li>
-                <li><a href="https://twitter.com/your-twitter" target="_blank">Twitter</a></li>
-                <li><a href="https://github.com/your-github" target="_blank">GitHub</a></li>
-                <li><a href="https://scholar.google.com/your-scholar" target="_blank">Google Scholar</a></li>
-                <li><a href="https://dblp.org/pid/your-dblp" target="_blank">DBLP</a></li>
-                <li><a href="https://orcid.org/your-orcid" target="_blank">ORCID</a></li>
+                <li><a href="mailto:p.p.chaitanya2000@gmail.com"><img src="email-icon.webp" alt="Email" class="icon">Email</a></li>
+                <li><a href="https://github.com/pavanchaitanya1" target="_blank"><img src="github-icon.jpg" alt="Email" class="icon">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/pavan-chaitanya/" target="_blank"><img src="linkedin-icon.png" alt="Email" class="icon">Linkedin</a></li>
             </ul>
         </aside>
 
         <main class="content">
             <section id="biography">
                 <h2>Biography</h2>
-                <p>Your detailed biography goes here. You can describe your professional journey, research interests, and any other relevant information.</p>
+                <p>Pavan is a driven computer science graduate student at Purdue University with a robust background in software engineering, notably in Java. With two years of industry experience under his belt, Pavan's passion lies in the exploration of machine learning and deep learning technologies. Currently immersed in advanced coursework and research projects focused on AI, he is eager to connect with fellow enthusiasts and professionals to collaborate on cutting-edge solutions.</p>
             </section>
             <section id="research">
                 <h2>Research</h2>
-                <p>Details about your research work, publications, and contributions go here.</p>
+                <p>Currently I am working on 'Automatic Code Generation' using LLMs under Dr. Tianyi Zhang's guidance.</p>
+            </section>
+            <section id="Experience">
+                <h2>Professional Experience</h2>
+                <h4>Software Engineer at Sprinklr (2021 - 2023)</h4>
                 <ul>
-                    <li>Research highlight 1 with a link to the publication or project.</li>
-                    <li>Research highlight 2 with a link to the publication or project.</li>
+                    <li>Developed and maintained REST APIs and webhook consumption microservices leveraging Java and Spring Boot</li>
+                    <li>Collaborated with UI team and led backend teams to create GraphQL APIs for seamless integration of backend services</li>
+                    <li>Designed and introduced a novel generic framework to optimize webhook consumption setup time and periodic reporting jobs setup time by 10x, leading to promotion to Senior Software Engineer position</li>
+                    <li>Implemented and managed digital asset management integrations for Aprimo & Bynder engaging 10+ customers</li>
+                    <li>Engineered and managed CRM integrations for Salesforce, MS Dynamics, SAP, JIRA and Zendesk serving 20+ clients</li>
+                    <li>Extended Java Instrumentation library named Micrometer, to enable real-time metrics publishing to Elasticsearch and Prometheus for supporting performance monitoring across 12+ teams</li>
+                </ul>
+
+                <h4>Machine Learning Researcher at Coriolis (2021)</h4>
+                Customized SSD Mobilenet on 50 website pages, including multiple bank clients, to conduct logo detection on phishing webpages to identify original website being emulated
+
+                <h4>Machine Learning Intern at Ubisoft</h4>
+                Created a deep learning multilingual NLP tool to correct misspelled words in gaming sentences across 7+ languages
+
+            </section>
+            <section id="Projects">
+                <h2>Research Projects</h2>
+                
+                <h4>Code Review Automation with Generative AI</h4>
+                <ul>
+                    <li>Innovated a novel multi-stage code review generation framework using RAG-empowered off-the-shelf LLMs</li>
+                    <li>Verified efficacy of proposed approach using LLMs of different capacities (GPT-3.5, Mistral 7B, Llama 3 70B)</li>
+                    <li>Shipped framework as a Github App to automatically provide reviews for each code diff patch of a pull request</li>
+                    <li>Leveraged RAG to boost F1 scores by up to 3% for binary classification and improved precision by 2%-5%</li>
+                </ul>
+
+                <h4>XKCD-style Comic Generation using DPO</h4>
+                <ul>
+                    <li>Collected a dataset of 2240 comics by web-crawling and fine-tuned a Stable Diffusion Model using LoRA for 50k Steps to generate a comic image given a situation description</li>
+                    <li>Performed further fine-tuning with Direct Preference Optimization on manually labelled (good vs bad) held-out dataset of 580 comics utilizing a RESNET-18 reward model improving CLIP and FID scores by 5%</li>
+                </ul>
+
+                <h4>Gen AI tool for house damage detection</h4>
+                <ul>
+                    <li>Developed LLM bot by fine-tuning BLIP model on multi-modal text and image data, and hosted it on Hugging Face via an inference API to generate damage summaries from a small text and house images</li>
+                    <li>Utilized few-shot prompting to produce immediate and long-term house issues and fixes from damage summary</li>
                 </ul>
             </section>
         </main>

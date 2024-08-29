@@ -28,7 +28,6 @@ header nav a:hover {
 
 .container {
     display: flex;
-    max-width: 1200px;
     margin: 0 auto; /* Remove top margin to eliminate gap between header and content */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -43,6 +42,15 @@ header nav a:hover {
     width: 100%;
     border-radius: 50%;
     margin-bottom: 20px;
+}
+
+.cv-container iframe {
+    display: block;
+    border: none;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar h2 {
@@ -85,6 +93,13 @@ header nav a:hover {
 
 .content section {
     margin-bottom: 40px;
+}
+
+.icon {
+    width: 20px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 3px;
 }
 
 .content h2 {
