@@ -7,7 +7,8 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
     padding: 10px 0;
 }
 
@@ -16,10 +17,11 @@ header nav {
 }
 
 header nav a {
-    color: white;
+    color: #9b1c1c; /* Dark red color */
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 header nav a:hover {
@@ -50,6 +52,8 @@ header nav a:hover {
 .sidebar h2 {
     margin-top: 0;
     font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
 }
 
 .sidebar p {
@@ -87,9 +91,9 @@ header nav a:hover {
 }
 
 .content h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    font-size: 2em;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #444;
 }
 
 .content p {
@@ -107,4 +111,19 @@ footer {
     background-color: #333;
     color: white;
     margin-top: 20px;
+}
+
+h2, h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #666;
 }
