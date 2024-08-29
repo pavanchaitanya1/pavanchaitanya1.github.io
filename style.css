@@ -1,49 +1,118 @@
-/* Remove space in CV tab */
-.cv-container {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 20px; /* Adds space between the top of the webpage and header */
+    background-color: #fff;
+    color: #333;
 }
 
-/* About tab container adjustments */
+header {
+    background-color: #fff; /* Ensure the header background matches the body */
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0; /* Removes any gap between header and content */
+}
+
+header nav a {
+    color: #9b1c1c; /* Dark red color */
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
 .container {
     display: flex;
-    max-width: 100%; /* Remove any max-width restriction */
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove padding to ensure content touches edges */
-}
-
-.content {
-    width: 100%;
-    padding: 0; /* Remove padding from content */
+    max-width: 1200px;
+    margin: 0 auto; /* Remove top margin to eliminate gap between header and content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .sidebar {
     width: 25%;
-    padding: 0;
+    padding: 20px;
+    text-align: center;
 }
 
-.sidebar img.profile-pic {
+.sidebar .profile-pic {
     width: 100%;
-    padding: 0;
-    margin: 0;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-.sidebar h2, .sidebar p, .sidebar .contact-info {
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.sidebar p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.sidebar .contact-info {
+    list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0;
+}
+
+.sidebar .contact-info li {
+    margin: 10px 0;
+}
+
+.sidebar .contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar .contact-info a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 75%;
+    padding: 40px;
+    margin: 0; /* Remove margin to eliminate gap between header and content */
 }
 
 .content section {
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
-.content h2, .content p, .content ul {
-    margin: 0;
-    padding: 0;
+.content h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #444;
 }
 
+.content p {
+    line-height: 1.6;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+h2, h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #666;
+}
